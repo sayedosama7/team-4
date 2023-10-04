@@ -1,0 +1,294 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d16569 !important;
+}
+
+:root {
+    --main-color: ;
+    --bg-color: ;
+    --transition: ;
+}
+
+/* End global  */
+
+/* start photography section  */
+.Photography {
+    margin: 50px auto;
+}
+
+.photography img {
+    height: 250px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.photography div {
+    transition: all .5s ease;
+}
+
+.photography div:hover {
+    transform: scale(1.1);
+}
+
+.photography p {
+    bottom: -16px;
+    color: #fff;
+    background-color: #795648;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* End photography section  */
+
+/* start providers  */
+.providers img {
+    height: 250px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.providers p {
+    bottom: -7px;
+    left: 4px;
+    color: #000;
+    background-color: #cce3d9;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.providers div {
+    transition: all .5s ease;
+}
+
+.providers div:hover {
+    transform: scale(1.1);
+}
+
+.providers a {
+    color: #57c1ff;
+    font-size: 18px;
+}
+
+/* End providers  */
+
+/* start join  */
+.join {
+    margin: 100px auto;
+}
+
+.join h6 {
+    line-height: 2;
+    margin: 20px 0;
+    color: #000;
+}
+
+.join button {
+    padding: 15px 80px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #d16569;
+    color: #fff;
+}
+
+.join img {
+    width: 170px;
+}
+
+.join p {
+    bottom: -7px;
+    left: 4px;
+    color: #000;
+    background-color: #cce3d9;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 8px 18px;
+    border-radius: 10px;
+}
+
+@media (max-width:567px) {
+    .join {
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    .join p {
+        left: 33%;
+    }
+
+    .join h2 {
+        margin-top: 0 !important;
+    }
+
+}
+
+/* End join  */
+
+/* start newsletter */
+form {
+    position: relative;
+}
+
+.news form input[type="email"] {
+    width: 40%;
+    background-color: #e5f6ec;
+    border: none;
+    padding: 10px 50px;
+}
+
+.news form input[type="submit"] {
+    padding: 12px 30px;
+    font-size: 15px;
+}
+
+.news form .fa-envelope {
+    top: 10px;
+    left: 26%;
+    font-size: 25px;
+}
+
+@media (max-width:992px) {
+    .news form input::placeholder {
+        padding-left: 10px;
+    }
+
+    .news form input[type="email"] {
+        width: 100%;
+    }
+
+    .news form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news form .fa-envelope {
+        top: 10px;
+        left: 10px;
+        font-size: 25px;
+    }
+}
+
+/* End newsletter */
+
+/* start download app  */
+.download {
+    background-image: linear-gradient(to right, #1f3e44e0, #1f3e44b7), url(../images/download-app.png);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    color: #fff;
+    margin: 50px auto;
+    border-radius: 30px;
+}
+
+.download .download-caption {
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.download .download-caption h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.download .download-caption p {
+    line-height: 2;
+}
+
+.download .download-caption button {
+    padding: 8px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.download .download-caption button:nth-of-type(2) {
+    background-color: #fddbcd;
+    color: #8b283c;
+    border: none;
+
+}
+
+@media (max-width:992px) {
+    .download .download-caption {
+        margin-top: 15%;
+    }
+
+    .download {
+        height: auto;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .download .download-caption {
+        margin-left: 0;
+    }
+}
+
+/* End download app  */
+
+/* start footer  */
+footer .fa-envelope {
+    font-size: 30px;
+    background-color: #feefe6;
+    padding: 10px;
+    color: #d16569;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer .footer-logo {
+    width: 200px;
+}
+
+footer .fa-heart {
+    color: green;
+}
+
+@media (max-width:768px) {
+    footer .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .contact div h5 {
+        font-size: 13px;
+    }
+
+    footer .fa-envelope {
+        border-radius: 50%;
+        margin-right: 0px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .useful-links,
+    .services,
+    .social-media {
+        margin-top: 0 !important;
+    }
+}
+
+/* End footer  */
