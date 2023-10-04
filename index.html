@@ -26,7 +26,116 @@
 </head>
 
 <body>
-    <!-- start  section  -->
+    <!-- start navbar  -->
+    <!-- start header nav  -->
+    <div class="header-nav">
+        <div class="header-nav-container d-flex justify-content-between align-items-center text-light p-2">
+            <div class="social-icons pl-5 wow fadeInLeft">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="location d-flex wow fadeInUp">
+                <div>
+                    <i class="fa-solid fa-location-dot mr-1"></i>
+                    <span>2464 royal ln. zagazig , sharkia</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope ml-3 mr-1"></i>
+                    <span>user@gmail.com</span>
+                </div>
+            </div>
+            <div class="wow fadeInRight">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown"
+                        aria-expanded="false">
+                        english
+                    </button>
+                    <ul class="dropdown-menu bg-danger" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item text-dark" type="button">arabic</button></li>
+                        <li><button class="dropdown-item text-dark" type="button">french</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header nav  -->
+
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="./images/Henna Logo-02 2.png" alt=""></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#wedding-services">wedding services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#providers">providers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex input-group w-auto position-relative">
+                    <input type="search" class="form-control" placeholder="search" aria-label="Search" />
+                    <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+                </form>
+                <button class="download-btn btn btn-danger ml-3" type="button" data-mdb-ripple-color="dark">
+                    download app
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- End nav  -->
+    <!-- End navbar  -->
+    <hr>
+    <!-- start login  -->
+    <div class="container-fluid px-5 login my-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="login-caption d-flex justify-content-between align-items-center">
+                    <div>
+                        <a href="#">home</a>
+                    </div>
+                    <div class="buttons d-flex">
+                        <button type="button" class="btn btn-danger mr-2">create account</button>
+                        <button type="button" class="btn">login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End login  -->
+
+    <!-- start header section  -->
+    <div class="container-fluid header">
+        <div class="row">
+            <div class="col-md-12 header-caption">
+                <h1>welcome</h1>
+                <p>maxime recusandae nobismaxime recusandae <br>nobismaxime recusandae nodismaxime recusandae nobirs.
+                </p>
+                <button type="button" class="btn btn-danger">Get started</button>
+            </div>
+        </div>
+    </div>
+    <!-- End header section  -->
+
+    <!-- start Photography section  -->
     <div class="container Photography" id="photography">
         <div class="row">
             <div class="photography d-flex flex-wrap wow fadeInUp" data-wow-duration="1.5s">
@@ -58,13 +167,13 @@
             </div>
         </div>
     </div>
-    <!-- End  section  -->
+    <!-- End Photography section  -->
 
     <!-- start providers  -->
     <div class="container Providers" id="providers">
         <div class="row">
             <div class="col-md-12">
-                <div class="d-flex justify-content-between mb-3">
+                <div class="Providers-caption d-flex justify-content-between mb-3">
                     <h2 class="fw-bold text-dark">our providers</h2>
                     <a href="">see all providers</a>
                 </div>
@@ -100,6 +209,91 @@
 
         </div>
     </div>
+    <!-- End providers  -->
+
+    <!-- start our services  -->
+    <div class="container services" id="wedding-services">
+        <div class="row">
+            <div class="services-caption col-md-12 d-flex justify-content-between align-items-center mb-4">
+                <h2>our services</h2>
+                <a href="#">see all services</a>
+            </div>
+
+            <div class="col-md-12 d-flex flex-wrap wow fadeInUp">
+                <div class="shadow mb-5 text-center services-container">
+                    <img class="img-fluid" src="./images/service-1.png" alt="services">
+                    <h4 class="pt-3 text-dark">photographer</h4>
+                    <p class="text-muted m-0">category name</p>
+                    <div class=" mt-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="text-info">(121)</span>
+                    </div>
+                    <button type="button" class="text-muted">view</button>
+                </div>
+
+                <div class="shadow mb-5 text-center services-container">
+                    <img class="img-fluid" src="./images/service-1.png" alt="services">
+                    <h4 class="pt-3 text-dark">photographer</h4>
+                    <p class="text-muted m-0">category name </p>
+                    <div class=" mt-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="text-info">(121)</span>
+                    </div>
+                    <button type="button" class="text-muted">view</button>
+                </div>
+
+                <div class=" shadow mb-5 text-center services-container">
+                    <img class="img-fluid" src="./images/service-1.png" alt="services">
+                    <h4 class="pt-3 text-dark">photographer</h4>
+                    <p class="text-muted m-0">category name </p>
+                    <div class=" mt-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="text-info">(121)</span>
+                    </div>
+                    <button type="button" class="text-muted">view</button>
+                </div>
+
+                <div class="shadow mb-5 text-center services-container">
+                    <img class="img-fluid" src="./images/service-1.png" alt="services">
+                    <h4 class="pt-3 text-dark">photographer</h4>
+                    <p class="text-muted m-0">category name </p>
+                    <div class=" mt-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="text-info">(121)</span>
+                    </div>
+                    <button type="button" class="text-muted">view</button>
+                </div>
+
+                <div class="shadow mb-5 text-center services-container">
+                    <img class="img-fluid" src="./images/service-1.png" alt="services">
+                    <h4 class="pt-3 text-dark">photographer</h4>
+                    <p class="text-muted m-0">category name </p>
+                    <div class=" mt-2">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="text-info">(121)</span>
+                    </div>
+                    <button type="button" class="text-muted">view</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End our services  -->
 
     <!-- start join  -->
     <div class="container join">
@@ -115,49 +309,61 @@
             <div class="col-md-7 wow fadeInRight">
 
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="position-relative mb-4">
-                            <img src="./images/LOGO PROVIDER.png" alt="">
-                            <p class="position-absolute">hala makup artist</p>
-                        </div>
-                    </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="position-relative mb-4">
-                            <img src="./images/LOGO PROVIDER.png" alt="">
-                            <p class="position-absolute">hala makup artist</p>
-                        </div>
-                    </div>
+                    <div class="d-flex flex-wrap">
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="position-relative mb-4">
-                            <img src="./images/LOGO PROVIDER.png" alt="">
-                            <p class="position-absolute">hala makup artist</p>
+                        <div class="mr-4 m-auto">
+                            <div class="position-relative mb-4">
+                                <img src="./images/LOGO PROVIDER.png" alt="">
+                                <p class="position-absolute">hala makup artist</p>
+                            </div>
                         </div>
-                    </div>
 
+                        <div class="mr-4 m-auto">
+                            <div class="position-relative mb-4">
+                                <img src="./images/LOGO PROVIDER.png" alt="">
+                                <p class="position-absolute">hala makup artist</p>
+                            </div>
+                        </div>
+
+                        <div class="mr-4 m-auto">
+                            <div class="position-relative mb-4">
+                                <img src="./images/LOGO PROVIDER.png" alt="">
+                                <p class="position-absolute">hala makup artist</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="position-relative mb-4">
-                            <img src="./images/LOGO PROVIDER-1.png" alt="">
-                            <p class="position-absolute">hala makup artist</p>
+
+                    <div class="d-flex flex-wrap">
+
+                        <div class="mr-4 m-auto">
+                            <div class="position-relative mb-4">
+                                <img src="./images/LOGO PROVIDER-1.png" alt="">
+                                <p class="position-absolute">hala makup artist</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="position-relative mb-4">
-                            <img src="./images/LOGO PROVIDER-1.png" alt="">
-                            <p class="position-absolute">hala makup artist</p>
+
+                        <div class="mr-4 m-auto">
+                            <div class="position-relative mb-4">
+                                <img src="./images/LOGO PROVIDER-1.png" alt="">
+                                <p class="position-absolute">hala makup artist</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="position-relative mb-4">
-                            <img src="./images/LOGO PROVIDER-1.png" alt="">
-                            <p class="position-absolute">hala makup artist</p>
+
+                        <div class="mr-4 m-auto">
+                            <div class="position-relative mb-4">
+                                <img src="./images/LOGO PROVIDER-1.png" alt="">
+                                <p class="position-absolute">hala makup artist</p>
+                            </div>
                         </div>
+
                     </div>
                 </div>
+
             </div>
 
         </div>
@@ -196,12 +402,35 @@
     </div>
     <!-- End download app  -->
 
-    <!-- End providers  -->
+    <!-- start about  -->
+    <div class="container-fluid about text-light" id="about">
+        <div class="row">
+            <h2 class="text-dark mb-3">about henna</h2>
+            <div class="about-caption d-flex wow fadeInUp">
+                <div class="mr-4">
+                    <h2>objectives</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dignissimos.</p>
+                </div>
+
+                <div class="mr-4">
+                    <h2>visions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dignissimos.</p>
+                </div>
+
+                <div>
+                    <h2>missions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dignissimos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End about  -->
+
     <!--start Footer -->
-    <footer class="text-center text-lg-start" id="footer">
+    <footer class="text-center text-lg-start  wow fadeInUp" data-wow-delay=".5s" id="contact">
         <!-- Section: Links  -->
         <section>
-            <div class="container text-center text-md-start mt-5">
+            <div class="container text-center text-md-start ">
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
@@ -299,7 +528,7 @@
         <!-- Section: Links  -->
 
         <!-- Copyright -->
-        <div class="text-center p-4 animate__animated animate__bounce animate__infinite">
+        <div class="text-center p-4 animate__animated animate__flash animate__infinite animate__slower">
             © 2023 , all rights reserved <br> <span class="text-danger">mariem <i class="fa-regular fa-heart"></i>
                 mohamed <i class="fa-regular fa-heart"></i> ahmed <i class="fa-regular fa-heart"></i> sayed <i
                     class="fa-regular fa-heart"></i> ahmed</span>

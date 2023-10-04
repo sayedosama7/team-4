@@ -22,6 +22,198 @@ a:hover {
 
 /* End global  */
 
+/* start navbar  */
+/* start header nav  */
+.header-nav {
+    background-color: #ce5c60;
+}
+
+.header-nav .social-icons .fa-facebook,
+.fa-youtube,
+.fa-twitter,
+.fa-linkedin,
+.fa-instagram {
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+.header-nav .social-icons .fa-facebook:hover,
+.fa-youtube:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover {
+    background-color: #ce5c60;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.header-nav .dropdown button {
+    box-shadow: none;
+    color: #ffffffc3;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+@media (max-width:567px) {
+
+    .header-nav .header-nav-container,
+    .header-nav .header-nav-container .location {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-nav .social-icons {
+        padding-left: 0 !important;
+    }
+}
+
+/* End header nav  */
+/* start nav  */
+.navbar .nav-link {
+    font-size: 20px;
+}
+
+.navbar form input[type="search"] {
+    background-color: #e5f6ec;
+    border-radius: 50px !important;
+    padding: 20px;
+    border: none;
+}
+
+.navbar form input[type="search"]::placeholder {
+    color: #0000006f;
+    padding-left: 10px;
+}
+
+.navbar form .fa-magnifying-glass {
+    top: 11px;
+    left: 10px;
+    color: #0000006f;
+}
+
+.navbar .download-btn {
+    padding: 11px 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    color: #f0837e !important;
+    border: 2px solid #f0837e !important;
+    padding: 8px;
+}
+
+@media (max-width:768px) {
+    .navbar .download-btn {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+
+}
+
+/* End nav  */
+/* End navbar  */
+
+/* start login  */
+.login a {
+    font-size: 20px;
+    color: #000000a6;
+}
+
+.login button {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.login button:nth-of-type(2) {
+    background-color: #feefe6;
+    color: #ce5c60;
+}
+
+@media(max-width:567px) {
+
+    .login .login-caption,
+    .login .login-caption .buttons {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .login .login-caption .buttons button:nth-of-type(1) {
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+    }
+
+}
+
+/* End login  */
+/* start header section  */
+.header {
+    background-image: linear-gradient(to right, #ce5c605b, #ce5c605b), url(../images/back-header-back.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.header-caption {
+    padding-top: 15%;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.header-caption h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-caption p {
+    font-size: 27px;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+.header-caption button {
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+@media (max-width:576px) {
+    .header {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .header-caption {
+        padding-top: 5%;
+        padding-left: 10px;
+    }
+
+    .header-caption h1 {
+        font-size: 40px;
+    }
+
+    .header-caption p {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .header-caption button {
+        padding: 10px 20px;
+    }
+}
+
+/* End header section  */
+
 /* start photography section  */
 .Photography {
     margin: 50px auto;
@@ -35,6 +227,7 @@ a:hover {
 
 .photography div {
     transition: all .5s ease;
+    margin: auto;
 }
 
 .photography div:hover {
@@ -48,6 +241,12 @@ a:hover {
     font-size: 28px;
     padding: 15px;
     border-radius: 20px;
+}
+
+@media (max-width:567px) {
+    .photography img {
+        margin-right: 0px;
+    }
 }
 
 /* End photography section  */
@@ -72,6 +271,7 @@ a:hover {
 
 .providers div {
     transition: all .5s ease;
+    margin: auto;
 }
 
 .providers div:hover {
@@ -83,7 +283,60 @@ a:hover {
     font-size: 18px;
 }
 
+@media (max-width:567px) {
+    .providers img {
+        margin-right: 0px;
+    }
+
+    .Providers .Providers-caption {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 /* End providers  */
+
+/* start services section  */
+.services {
+    margin: 50px auto;
+}
+
+.services img {
+    width: 200px;
+    height: 160px;
+}
+
+.services .services-container {
+    border-radius: 20px !important;
+    margin-right: 20px;
+    margin: auto;
+    transition: all .5s ease;
+}
+
+.services .services-container:hover {
+    transform: scale(1.1);
+}
+
+.services .fa-star {
+    color: #cd9902;
+    font-size: 25px;
+}
+
+.services .services-container button {
+    border: 1px solid #000;
+    padding: 5px 70px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+@media (max-width:576px) {
+    .services .services-caption {
+        flex-direction: column;
+    }
+}
+
+/* End services section  */
 
 /* start join  */
 .join {
@@ -123,10 +376,6 @@ a:hover {
     .join {
         margin: 50px auto;
         text-align: center;
-    }
-
-    .join p {
-        left: 33%;
     }
 
     .join h2 {
@@ -244,9 +493,77 @@ form {
     .download .download-caption {
         margin-left: 0;
     }
+
+    .download {
+        margin: 20px auto;
+    }
 }
 
 /* End download app  */
+
+/* start about  */
+.about {
+    padding: 50px;
+}
+
+.about .about-caption div {
+    padding: 50px 35px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.about .about-caption div p {
+    line-height: 2;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about .about-caption div:nth-of-type(1),
+.about .about-caption div:nth-of-type(3) {
+    background-color: #e16c63;
+}
+
+.about .about-caption div:nth-of-type(2) {
+    background-color: #3a8a8e;
+}
+
+.about .about-caption h2 {
+    font-size: 40px;
+}
+
+@media (max-width:1300px) {
+    .about .about-caption div {
+        height: auto;
+    }
+}
+
+@media (max-width:768px) {
+    .about .about-caption {
+        flex-direction: column;
+    }
+
+    .about .about-caption div {
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+        padding: 20px 35px;
+    }
+
+    .about .about-caption h2 {
+        font-size: 30px;
+    }
+
+    .about .about-caption div p {
+        line-height: 1.5;
+        letter-spacing: 0px;
+        font-size: 16px;
+    }
+
+    .about {
+        padding: 20px;
+    }
+}
+
+/* End about  */
 
 /* start footer  */
 footer .fa-envelope {
